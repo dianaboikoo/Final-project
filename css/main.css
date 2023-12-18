@@ -1,0 +1,302 @@
+.all {
+    position: relative;
+    width: 1280px;
+    height: 1412px;
+    background: #f3eed8;
+    overflow: hidden;
+  }
+
+  .logo {
+    position: absolute;
+    width: 185px;
+    height: 116px;
+    top: 12px;
+    left: 547px;
+
+  }
+  .fav {
+    position: absolute;
+    width: 52px;
+    height: 53px;
+    top: 28px;
+    left: 1122px;
+  }
+
+  .dk {
+    position: absolute;
+    width: 62px;
+    height: 32px;
+    top: 46px;
+    left: 110px;
+  }
+
+  .headline {
+    position: relative;
+    width: 698px;
+    height: 69px;
+    margin: 161px 0 0 128px;
+  }
+
+  .backbutton {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 17px;
+  }
+
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 373px;
+    height: 63px;
+    top: -20px;
+    left: 325px;
+    font-family: 'Katibeh';
+    color: #400b0b;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 62.761px;
+    text-align: center;
+  }
+  
+
+
+  .boxs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 846px;
+    height: 560px;
+    margin: 1px 0 0 217px;
+  }
+
+
+  .box1 {
+    flex-shrink: 0;
+    position: relative;
+    width: 413px;
+    height: 560px;
+    border: 2px solid #400b0b;
+    border-radius: 25px;
+  }
+  .pic {
+    position: relative;
+    width: 365px;
+    height: 306px;
+    margin: 24px 0 0 24px;
+    border-radius: 18px;
+  }
+
+  .colltext1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    margin: 26px 0 0 24.35px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 29.68px;
+    text-align: left;
+  }
+  .colltext2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 158.3px;
+    height: 23px;
+    margin: 13px 0 0 24.35px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .colltext3 {
+    display: block;
+    position: relative;
+    height: 26px;
+    margin: 14px 0 0 24.35px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.52px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .colltext4 {
+    display: block;
+    position: relative;
+    height: 26px;
+    margin: 0 0 0 24.35px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.52px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+
+  .box2 {
+    flex-shrink: 0;
+    position: relative;
+    width: 413px;
+    height: 560px;
+    border: 2px solid #400b0b;
+    border-radius: 25px;
+  }
+  .pic2 {
+    position: relative;
+    width: 365px;
+    height: 306px;
+    margin: 24px 0 0 24px;
+    border-radius: 18px;
+  }
+  .section2 {
+    position: relative;
+    width: 199px;
+    height: 64px;
+    margin: 19px 0 0 39px;
+    color: #400b0b;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 31.92px;
+    text-align: left;
+
+  }
+  .hortext1 {
+    position: relative;
+  }
+
+  .hortext2 {
+    position: relative;
+  }
+
+  .hortext3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 151px;
+    height: 23px;
+    margin:11px 0 0 40px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .section2_2 {
+    position: relative;
+    width: 356px;
+    height: 61px;
+    margin: 18px 0 0 39px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    height: 26px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+  }
+
+  .hortext4 {
+    display: block;
+    position: relative;
+  }
+
+  .hortext5 {
+    display: block;
+    position: relative;
+    margin-top: 1px;
+  }
+
+  .box3 {
+    position: relative;
+    width: 413px;
+    height: 560px;
+    margin: 20px 0 0 217px;
+    border: 2px solid #400b0b;
+    overflow: visible auto;
+    border-radius: 25px;
+  }
+  .pic3 {
+    position: relative;
+    width: 365px;
+    height: 306px;
+    margin: 24px 0 0 24px;
+    border-radius: 18px;
+  }
+  .section3 {
+    position: relative;
+    width: 241.097px;
+    height: 64px;
+    margin: 19px 0 0 25.94px;
+    font-size: 28px;
+    line-height: 31.92px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  .rostext1 {
+    position: relative;
+    font-family: 'Montserrat';
+    color: #400b0b;
+  }
+
+  .rostext3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 156px;
+    height: 23px;
+    margin: 11px 0 0 25.94px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    white-space: nowrap;
+
+  }
+  .section3_2 {
+    position: relative;
+    width: 356px;
+    height: 61px;
+    margin: 18px 0 0 25.94px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    height: 26px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+  }
+  .rostext4 {
+    position: relative;
+  }
+  .rostext5 {
+    margin-top: 9px;
+    position: relative;
+  }

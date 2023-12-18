@@ -1,0 +1,80 @@
+  
+  .all {
+    position: relative;
+    width: 1280px;
+    height: 832px;
+    background: #f3eed8;
+
+  }
+
+  .logo {
+    position: absolute;
+    width: 185px;
+    height: 116px;
+    top: 12px;
+    left: 547px;
+
+  }
+  .fav {
+    position: absolute;
+    width: 52px;
+    height: 53px;
+    top: 28px;
+    left: 1122px;
+  }
+
+  .dk {
+    position: absolute;
+    width: 62px;
+    height: 32px;
+    top: 46px;
+    left: 110px;
+  }
+
+  .doodle {
+    position: absolute;
+    width: 547px;
+    height: 435px;
+    top: 165px;
+    left: 693px;
+  }
+  
+  .wrapper {
+    position: relative;
+    width: 283.702px;
+    height: 116px;
+    top: 620px;
+    left: 498px;
+  }
+
+  .box {
+    position: absolute;
+    width: 283.702px;
+    height: 111.744px;
+    top: 0;
+    left: 0px;
+    background: #e9b91f;
+    border-radius: 25px;
+  }
+
+  .Explore {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    top: 22px;
+    left: 32px;
+    font-family: 'Katibeh';
+    color: #400b0b;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 62.761px;
+    text-align: center;
+  }
+
+  .tagline{
+    position: absolute;
+    width: 495px;
+    height: 228px;
+    top: 249px;
+    left: 140px;
+  }
