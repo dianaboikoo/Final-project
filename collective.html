@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Collective</title>
     <link rel="stylesheet" href="css/collective.css">
+    <script src="js/js.js"></script>
 </head>
 <body>
     <div class="all"> <!--Header-->
@@ -20,9 +21,17 @@
 
           <div class="box">
             <span class="text">Coffee Collective Godthåbsvej</span>
-            <img class="pic1" src="Images/collective1.png" alt="pic1" class="img">
-            <img class="previous" src="Images/previous.png" alt="previous" class="img">
-            <img class="next" src="Images/next.png" alt="next" class="img">
+
+
+            <div class = "imagecontainer">
+
+            <img id="pic" src="Images/collective1.png" alt="pic" class="img">
+            <button class="prev" onclick="changeImage(-1)">❮</button>
+            <button class="next" onclick="changeImage(1)">❯</button>
+
+          </div>
+
+
 
             <span class="days">Mo<br>Tu<br>We<br>Th<br>Fr<br>Sa<br>Su</span>
             <span class="time">7:00 - 17:00<br>7:00 - 17:00<br>7:00 - 17:00<br>7:00 - 17:00<br>7:00 - 17:00<br>8:00 - 17:00<br>8:00 - 17:00</span>
@@ -34,7 +43,7 @@
             <div class="box-2">
               <span class="address">Copenhagen, Godthabsvej 34b</span>
               <span class="km">2 km </span>
-              <span class="map">Show on map</span>
+              <span class="map"> <a href="https://maps.app.goo.gl/2k3DkTRCyi8kNL2p7" target="_blank">Show on map</a></span>
             </div>
 
             <span class="busyheadline">Busy hours</span>

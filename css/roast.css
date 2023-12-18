@@ -1,0 +1,376 @@
+.all {
+    position: relative;
+    width: 1280px;
+    height: 1412px;
+    background: #f3eed8;
+    overflow: hidden;
+  }
+
+  .logo {
+    position: absolute;
+    width: 185px;
+    height: 116px;
+    top: 12px;
+    left: 547px;
+
+  }
+  .fav {
+    position: absolute;
+    width: 52px;
+    height: 53px;
+    top: 28px;
+    left: 1122px;
+  }
+
+  .dk {
+    position: absolute;
+    width: 62px;
+    height: 32px;
+    top: 46px;
+    left: 110px;
+  }
+
+  .headline {
+    position: relative;
+    width: 698px;
+    height: 69px;
+    margin: 161px 0 0 128px;
+  }
+
+  .backbutton {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 17px;
+  }
+
+
+
+  .box {
+    position: relative;
+    width: 1103px;
+    height: 260px;
+    margin: -52px 0 0 128px;
+  }
+
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 61px;
+    top: -20px;
+    left: 566px;
+    font-family: 'Katibeh';
+    color: #400b0b;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 61px;
+    text-align: left;
+  }
+
+  .pic1 {
+    position: absolute;
+    width: 413px;
+    height: 248px;
+    top: 2px;
+    left: 89px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  .previous {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 117px;
+    left: 48px;
+  }
+  .next {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 117px;
+    left: 505px;
+  }
+
+  .days {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 176px;
+    width: 207px;
+    top: 53px;
+    left: 566px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.84px;
+    text-align: left;
+    height: 27px;
+
+  }
+  .time {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 176px;
+    width: 207px;
+    top: 53px;
+    left: 617px;
+    font-family: 'Montserrat';
+  color: #400b0b;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.9px;
+  text-align: left;
+  white-space: nowrap;
+  }
+ 
+
+
+  .box2 {
+    position: relative;
+    width: 791px;
+    height: 155px;
+    margin: 24px 0 0 217px;
+  }
+
+  .address {
+    width: 438.74px;
+    height: 47px;
+    position: relative;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 46.76px;
+    text-align: left;
+  }
+  .km {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1px;
+    position: relative;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 46.76px;
+    text-align: left;
+  }
+
+  .map {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 23px;
+    top: 97px;
+    left: 1px;
+    font-family: 'Montserrat';
+    color: #de4728;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    text-decoration: underline;
+    white-space: nowrap;;
+  }
+
+
+  .busyheadline {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 5px;
+    left: 477px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .busyhours {
+    position: absolute;
+    width: 314px;
+    height: 97px;
+    top: 58px;
+    left: 477px;
+  }
+  
+
+
+
+
+  .serving {
+    display: block;
+    position: relative;
+    height: 32px;
+    margin: 5px 0 0 217px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .servingimg {
+    position: relative;
+    width: 413px;
+    height: 90px;
+    margin: 20px 0 0 217px;
+  }
+
+  .services {
+    display: block;
+    position: relative;
+    height: 32px;
+    margin: 30px 0 0 217px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  .servicesimg {
+    position: relative;
+    width: 305px;
+    height: 89px;
+    margin: 20px 0 0 217px;
+  }
+
+
+
+
+
+
+
+
+  .reviewsgroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 246px;
+    height: 33px;
+    margin: 40px 0 0 218px;
+  }
+
+  .reviewheadline {
+    position: relative;
+    height: 32px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  .stars {
+    position: relative;
+    width: 78px;
+    height: 33px;
+  }
+
+
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 177px;
+    height: 47px;
+    margin: 19px 0 0 218px;
+    background: #e9b91f;
+    border-radius: 15px;
+  }
+  .buttontext {
+    position: relative;
+    height: 26px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+  }
+
+
+
+
+  .box3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 630px;
+    height: 273px;
+    margin: 30px 0 0 217px;
+  }
+  .com1 {
+    position: relative;
+    width: 305px;
+    height: 273px;
+    border: 1px solid #400b0b;
+    border-radius: 25px;
+  }
+  .rating {
+    position: relative;
+    width: 64px;
+    height: 29px;
+    margin: 81px 0 0 24px;
+  }
+
+  .comtext {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 281px;
+    height: 136.5px;
+    margin: 10.75px 0 0 24px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.29px;
+    text-align: left;
+  }
+  .D {
+    position: absolute;
+    width: 47px;
+    height: 49.35px;
+    top: 21px;
+    left: 20px;
+  }
+  .comname {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 33.6px;
+    top: 28.35px;
+    left: 87px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32.48px;
+    text-align: left;
+  }
+
