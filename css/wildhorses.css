@@ -37,11 +37,12 @@
     margin: 161px 0 0 128px;
   }
 
-  .backbutton {
+  .back {
     position: absolute;
     width: 52px;
     height: 52px;
-    top: 17px;
+    top: 140px;
+    left: 114px;
   }
 
 
@@ -50,7 +51,7 @@
     position: relative;
     width: 1103px;
     height: 260px;
-    margin: -52px 0 0 128px;
+    margin: 176px 0 0 128px;
   }
 
   .text {
@@ -69,7 +70,7 @@
     text-align: left;
   }
 
-  .pic1 {
+  .imagecontainer img {
     position: absolute;
     width: 413px;
     height: 248px;
@@ -78,19 +79,43 @@
     object-fit: cover;
     border-radius: 25px;
   }
-  .previous {
-    position: absolute;
-    width: 38px;
-    height: 38px;
-    top: 117px;
-    left: 48px;
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform 0.5s ease-in-out;
   }
-  .next {
+
+
+  .prev{
     position: absolute;
     width: 38px;
-    height: 38px;
-    top: 117px;
+    height: 50px;
+    top: 99px;
+    left: 48px;
+    font-size: 40px;
+    position: absolute;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+
+  }
+
+  .next{
+    position: absolute;
+    width: 38px;
+    height: 50px;
+    top: 99px;
     left: 505px;
+    font-size: 40px;
+    position: absolute;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
   }
 
   .days {
@@ -429,3 +454,6 @@
     line-height: 32.48px;
     text-align: left;
   }
+
+  a { text-decoration: none;
+    text-decoration-color: none; }

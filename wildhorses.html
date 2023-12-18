@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wild horses</title>
     <link rel="stylesheet" href="css/wildhorses.css">
+    <script src="js/wildhorses.js"></script>
 </head>
 <body>
     <div class="all"> <!--Header-->
-        <img class="logo" src="Images/logo.png" alt="logo" class="img">
-        <img class="fav" src="Images/favourite.png" alt="fav" class="img">
-        <img class="dk" src="Images/DK.png" alt="dk" class="img">
+      <a href="index.html"><img class="logo" src="Images/logo.png" alt="logo" class="img"></a>
+      <a href="favourite.html"><img class="fav" src="Images/favourite.png" alt="fav" class="img"></a>
+      <img class="dk" src="Images/DK.png" alt="dk" class="img">
 
-          <div class="headline"> <!--Headline-->
-            <img class="backbutton" src="Images/back.png" alt="back" class="img">
-          </div>
+      <a href="main.html"><img class="back" src="Images/back.png" alt="back" class="img"></a>
 
 
 
           <div class="box">
             <span class="text">Wild Horses Borgbjergsvej</span>
-            <img class="pic1" src="Images/horses1.png" alt="pic1" class="img">
-            <img class="previous" src="Images/previous.png" alt="previous" class="img">
-            <img class="next" src="Images/next.png" alt="next" class="img">
+
+            <div class = "imagecontainer">
+
+              <img id="pic" src="Images/horses1.png" alt="pic" class="img">
+              <button class="prev" onclick="changeImage(-1)">❮</button>
+              <button class="next" onclick="changeImage(1)">❯</button>
+  
+            </div>
 
             <span class="days">Mo<br>Tu<br>We<br>Th<br>Fr<br>Sa<br>Su</span>
             <span class="time">7:30 - 17:00<br>7:30 - 17:00<br>7:30 - 17:00<br>7:30 - 17:00<br>7:30 - 17:00<br>9:00 - 17:00<br>9:00 - 17:00</span>
@@ -59,9 +63,10 @@
             <img class="stars" src="Images/ratingbrown.png" alt="review" class="img">
           </div>
          
-          <div class="button">
-            <span class="buttontext">Write a review</span>
-          </div>
+          <a href="review1.html">
+            <div class="button">
+              <span class="buttontext">Write a review</span>
+            </div></a>
 
 
           <div class="box3">

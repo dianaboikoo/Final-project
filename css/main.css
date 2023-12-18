@@ -300,3 +300,5 @@
     margin-top: 9px;
     position: relative;
   }
+
+  a { text-decoration: none; }
