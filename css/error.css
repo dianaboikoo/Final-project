@@ -1,0 +1,23 @@
+.all {
+    position: relative;
+    width: 1280px;
+    height: 832px;
+    background: #f3eed8;
+  }
+
+  .logo {
+    position: absolute;
+    width: 185px;
+    height: 116px;
+    top: 12px;
+    left: 547px;
+
+  }
+  .error {
+    position: absolute;
+    width: 1107px;
+    height: 589px;
+    top: 145px;
+    left: 114px;
+
+  }
