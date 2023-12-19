@@ -1,4 +1,4 @@
-var currentImageIndex = 1; // Starts with the first image
+var currentImageIndex = 1; // Page starts with the first image
 
 function changeImage(direction) {
   var pic = document.getElementById('pic');
@@ -7,12 +7,15 @@ function changeImage(direction) {
   currentImageIndex += direction;
 
   // Checks the index
-  if (currentImageIndex < 1) {
+  if (currentImageIndex < 1) 
+  {
     currentImageIndex = 4; 
-  } else if (currentImageIndex > 4) {
+  } 
+  else if (currentImageIndex > 4) 
+  {
     currentImageIndex = 1;
   }
 
-  // Updates the image source with new index
+  // Updates images source with new index
   pic.src = 'Images/collective' + currentImageIndex + '.png';
 }

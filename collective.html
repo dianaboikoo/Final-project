@@ -13,6 +13,7 @@
       <a href="favourite.html"><img class="fav" src="Images/favourite.png" alt="fav" class="img"></a>
       <img class="dk" src="Images/DK.png" alt="dk" class="img">
 
+      <!--Back button-->
       <a href="main.html"><img class="back" src="Images/back.png" alt="back" class="img"></a>
       
 
@@ -21,23 +22,24 @@
           <div class="box">
             <span class="text">Coffee Collective Godthåbsvej</span>
 
-
+        <!--Function for previous and next page buttons-->
             <div class = "imagecontainer">
 
             <img id="pic" src="Images/collective1.png" alt="pic" class="img">
-            <button class="prev" onclick="changeImage(-1)">❮</button>
-            <button class="next" onclick="changeImage(1)">❯</button>
-
+            <button class="prev" onclick="changeImage(-1)">❮</button> <!--When user clicks on previous button Image Index goes -1 -->
+            <button class="next" onclick="changeImage(1)">❯</button> <!--When user clicks on next button Image Index goes +1 -->
+            <!--Function keep track of Image Index, if its higher then 4 it goes back to one, and of its lover then 1 it goes back to 4 -->
+            <!--My images names end with numbers from 1-4, so i added Image Index to the end of source. -->
           </div>
 
 
-
+          <!--Open hours-->
             <span class="days">Mo<br>Tu<br>We<br>Th<br>Fr<br>Sa<br>Su</span>
             <span class="time">7:00 - 17:00<br>7:00 - 17:00<br>7:00 - 17:00<br>7:00 - 17:00<br>7:00 - 17:00<br>8:00 - 17:00<br>8:00 - 17:00</span>
 
 
         </div>
-
+        <!--Adress and show on map hyperlink-->
         <div class="box2">
             <div class="box-2">
               <span class="address">Copenhagen, Godthabsvej 34b</span>
@@ -45,6 +47,7 @@
               <span class="map"> <a href="https://maps.app.goo.gl/2k3DkTRCyi8kNL2p7" target="_blank">Show on map</a></span>
             </div>
 
+            <!--Busy hours-->
             <span class="busyheadline">Busy hours</span>
             <img class="busyhours" src="Images/busy_hours.png" alt="busy hours" class="img">
         </div>
@@ -52,7 +55,7 @@
 
 
 
-
+           <!--Cafes services and serving-->
           <span class="serving">Serving</span>
           <img class="servingimg" src="Images/serving.png" alt="serving" class="img">
           <span class="services">Services</span>
@@ -61,18 +64,19 @@
 
 
 
-
+        <!--Review headline-->
           <div class="reviewsgroup">
             <span class="reviewheadline">2 Reviews</span>
             <img class="stars" src="Images/ratingbrown.png" alt="review" class="img">
           </div>
 
+          <!--Review button-->
           <a href="review1.html">
           <div class="button">
             <span class="buttontext">Write a review</span>
           </div></a>
 
-
+      <!--Comments-->
           <div class="box3">
             <div class="com1">
               <span class="comname">Daniel Nielsen</span>
