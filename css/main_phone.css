@@ -1,0 +1,270 @@
+.all {
+    position: relative;
+    width: 375px;
+    height: 1415px;
+    background: #f3eed8;
+    overflow: hidden;
+  }
+
+  .logo {
+    position: absolute;
+    width: 108px;
+    height: 67px;
+    top: 28px;
+    left: 133px;
+
+  }
+  .fav {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 37px;
+    left: 320px;
+  }
+
+  .dk {
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    top: 44px;
+    left: 21px;
+  }
+
+  
+  .headline {
+    position: relative;
+    width: 288px;
+    height: 41px;
+    margin: 115px 0 0 14px;
+  }
+
+  .backbutton {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+  }
+
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 230px;
+    height: 39px;
+    top: 0px;
+    left: 58px;
+    font-family: 'Katibeh';
+    color: #400b0b;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 62.761px;
+    text-align: center;
+  }
+
+
+
+
+  .box3 {
+    position: relative;
+    width: 284px;
+    height: 385px;
+    margin: 40px 0 0 44px;
+    border: 2px solid #400b0b;
+    overflow: visible auto;
+    border-radius: 25px;
+  }
+  .pic3 {
+    position: relative;
+    width: 251px;
+    height: 212px;
+    margin: 17px 0 0 17px;
+    border-radius: 18px;
+  }
+  .section3 {
+    position: relative;
+    width: 181px;
+    margin: 19px 0 0 17px;
+    font-size: 18px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  .rostext1 {
+    position: relative;
+    font-family: 'Montserrat';
+    color: #400b0b;
+  }
+
+  .rostext3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 156px;
+    margin: 5px 0 0 -4px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+
+  }
+  .section3_2 {
+    position: relative;
+    margin: 6px 0 0 17px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    font-family: 'Montserrat';
+    color: #400b0b;
+  }
+  .rostext4 {
+    position: relative;
+  }
+  .rostext5 {
+    margin-top: 9px;
+    position: relative;
+  }
+
+
+  
+
+  .box2 {
+    position: relative;
+    width: 284px;
+    height: 385px;
+    margin: 25px 0 0 45px;
+    border: 2px solid #400b0b;
+    overflow: visible auto;
+    border-radius: 25px;
+  }
+  .pic2 {
+    position: relative;
+    width: 251px;
+    height: 212px;
+    margin: 17px 0 0 17px;
+    border-radius: 18px;
+  }
+  .section2 {
+    position: relative;
+    width: 181px;
+    margin: 19px 0 0 17px;
+    font-size: 18px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  .coltext1 {
+    position: relative;
+    font-family: 'Montserrat';
+    color: #400b0b;
+  }
+
+  .coltext3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 156px;
+    margin: 5px 0 0 -4px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+
+  }
+  .section2_2 {
+    position: relative;
+    margin: 6px 0 0 17px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    font-family: 'Montserrat';
+    color: #400b0b;
+  }
+  .coltext4 {
+    position: relative;
+  }
+  .coltext5 {
+    margin-top: 9px;
+    position: relative;
+  }
+
+
+  
+
+  .box1 {
+    position: relative;
+    width: 284px;
+    height: 385px;
+    margin: 25px 0 0 45px;
+    border: 2px solid #400b0b;
+    overflow: visible auto;
+    border-radius: 25px;
+  }
+  .pic1 {
+    position: relative;
+    width: 251px;
+    height: 212px;
+    margin: 17px 0 0 17px;
+    border-radius: 18px;
+  }
+  .section1 {
+    position: relative;
+    width: 181px;
+    margin: 19px 0 0 17px;
+    font-size: 18px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  .hortext1 {
+    position: relative;
+    font-family: 'Montserrat';
+    color: #400b0b;
+  }
+
+  .hortext3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 156px;
+    margin: 5px 0 0 -4px;
+    font-family: 'Montserrat';
+    color: #400b0b;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+
+  }
+  .section1_2 {
+    position: relative;
+    margin: 6px 0 0 17px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    font-family: 'Montserrat';
+    color: #400b0b;
+  }
+  .hortext4 {
+    position: relative;
+  }
+  .hortext5 {
+    margin-top: 9px;
+    position: relative;
+  }

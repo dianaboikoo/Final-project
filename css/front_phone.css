@@ -1,0 +1,73 @@
+  
+  .all {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #f3eed8;
+    overflow: hidden;
+  }
+
+  .logo {
+    position: absolute;
+    width: 108px;
+    height: 67px;
+    top: 28px;
+    left: 133px;
+
+  }
+  .fav {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 37px;
+    left: 320px;
+  }
+
+  .dk {
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    top: 44px;
+    left: 21px;
+  }
+
+  .doodle {
+    position: absolute;
+    width: 288px;
+    height: 216px;
+    top: 372px;
+    left: 51px;
+  }
+
+
+  .box {
+    position: absolute;
+    width: 174px;
+    height: 72.36px;
+    top: 652px;
+    left: 100px;
+    background: #e9b91f;
+    border-radius: 25px;
+  }
+
+  .Explore {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    top: -4px;
+    left: 19.64px;
+    font-family: 'Katibeh';
+    color: #400b0b;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 62.761px;
+    text-align: center;
+  }
+
+  .tagline{
+    position: absolute;
+    width: 294px;
+    height: 126px;
+    top: 193px;
+    left: 40px;
+  }
