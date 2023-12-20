@@ -1,6 +1,6 @@
 .all {
     position: relative;
-    width: 1280px;
+    max-width: 100%;
     height: 1412px;
     background: #f3eed8;
     overflow: hidden;

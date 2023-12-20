@@ -1,6 +1,6 @@
 .all {
     position: relative;
-    width: 1280px;
+    max-width: 100%;
     height: 1412px;
     background: #f3eed8;
     overflow: hidden;
@@ -162,25 +162,20 @@
     margin: 24px 0 0 24px;
     border-radius: 18px;
   }
-  .section2 {
+  .hortext1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
     position: relative;
-    width: 199px;
-    height: 64px;
-    margin: 19px 0 0 39px;
-    color: #400b0b;
-    font-family: 'Montserrat';
+    margin: 19px 0 0 24px;
     font-size: 28px;
-    font-weight: 500;
     line-height: 31.92px;
     text-align: left;
-
-  }
-  .hortext1 {
+    white-space: nowrap;
+    font-weight: 500;
     position: relative;
-  }
-
-  .hortext2 {
-    position: relative;
+    font-family: 'Montserrat';
+    color: #400b0b;
   }
 
   .hortext3 {
@@ -190,7 +185,7 @@
     position: relative;
     width: 151px;
     height: 23px;
-    margin:11px 0 0 40px;
+    margin:11px 0 0 24px;
     font-family: 'Montserrat';
     color: #400b0b;
     font-size: 22px;
@@ -204,7 +199,7 @@
     position: relative;
     width: 356px;
     height: 61px;
-    margin: 18px 0 0 39px;
+    margin: 18px 0 0 24px;
     font-size: 22px;
     font-weight: 400;
     line-height: 26px;
@@ -243,19 +238,18 @@
     margin: 24px 0 0 24px;
     border-radius: 18px;
   }
-  .section3 {
+  
+  .rostext1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
     position: relative;
-    width: 241.097px;
-    height: 64px;
-    margin: 19px 0 0 25.94px;
+    margin: 19px 0 0 24px;
     font-size: 28px;
     line-height: 31.92px;
     text-align: left;
-    text-overflow: initial;
     white-space: nowrap;
     font-weight: 500;
-  }
-  .rostext1 {
     position: relative;
     font-family: 'Montserrat';
     color: #400b0b;

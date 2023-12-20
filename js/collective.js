@@ -1,3 +1,4 @@
+
 var currentImageIndex = 1; // Page starts with the first image
 
 function changeImage(direction) {
